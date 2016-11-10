@@ -1,0 +1,20 @@
+{
+  "name": "require-resolver",
+  "version": "1.0.0",
+  "description": "A function which adds path.resolve to a require function.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "resolve",
+    "require",
+    "relative",
+    "path"
+  ],
+  "author": "Sean J. MacIsaac",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^3.9.1"
+  }
+}
