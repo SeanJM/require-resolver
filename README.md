@@ -1,6 +1,6 @@
 # Require Resolve
 
-Usage with a single argument (returns a function)
+An auto curried function which will return a new function until the required file resolves.
 
 ```javascript
 const rr = require('require-resolve');
@@ -10,10 +10,8 @@ const scripts = rr('src/scripts');
 const myScript = scripts('my-script.js');
 ```
 
-Usage with 2 arguments
-
 ```javascript
 const rr = require('require-resolve');
-// This will return a new function
-const myScript = rr('src/scripts', 'my-script');
+// This will return the exports of the resolved script
+const myScript = rr('src/scripts/my-script');
 ```
