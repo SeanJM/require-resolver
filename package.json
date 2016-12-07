@@ -1,6 +1,6 @@
 {
   "name": "require-resolver",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A function which adds path.resolve to a require function.",
   "main": "index.js",
   "scripts": {
